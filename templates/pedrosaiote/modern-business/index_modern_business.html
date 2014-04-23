@@ -1,0 +1,216 @@
+{% extends "base_modern_business.html" %}
+{% load cms_tags staticfiles sekizai_tags menu_tags %}
+
+{% block carousel %}
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url();">
+                     <img src="{% static 'modern-business/img/bg3.jpg' %}">
+                    
+                </div>
+                <div class="carousel-caption">
+                    <h1>Modern Business - A Bootstrap 3 Template</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url();">
+                    {% placeholder "image slider center" %}
+                </div>
+                <div class="carousel-caption">
+                    <h1>Ready to Style &amp; Add Content</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url();">
+                    {% placeholder "image slider right" %}
+                </div>
+                <div class="carousel-caption">
+                    <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+{% endblock carousel %}
+
+{% block content %}
+    
+
+    <div class="section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    {% placeholder "row content left" %}
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    {% placeholder "row content center" %}
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    {% placeholder "row content right" %}
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+    <div class="section-colored text-center">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    {% placeholder "full row content" %}
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section-colored -->
+
+    <div class="section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     {% placeholder "full row home page portfolio title" %}
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio top-left" %}
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio top-center" %}
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio top-right" %}
+                    </a>
+                </div>
+                <!--
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="portfolio-item">
+                            <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450" %}>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="portfolio-item">
+                            <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="portfolio-item">
+                            <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
+                        </a>
+                    </div>
+                -->
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio botom-left" %}
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio botom-center" %}
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="portfolio-item">
+                        {% placeholder "image portfolio botom-right" %}
+                    </a>
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+    <div class="section-colored">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    {% placeholder "text left colored section" %}
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    {% placeholder "image right colored section" %}
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section-colored -->
+
+    <div class="section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                     {% placeholder "image left section" %}
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    {% placeholder "text right section" %}
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+    <div class="container">
+
+        <div class="row well">
+            <div class="col-lg-8 col-md-8">
+                <h4>'Modern Business' is a ready-to-use, Bootstrap 3 updated, multi-purpose HTML theme!</h4>
+                <p>For more templates and more page options that you can integrate into this website template, visit Start Bootstrap!</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <a class="btn btn-lg btn-primary pull-right" href="http://startbootstrap.com">See More Templates!</a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+{% endblock content %}

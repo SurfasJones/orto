@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Averia Sans Libre';
+	color: rgb(0, 202, 89);
+	font-size: 5em;}
+
+h3 {
+	font-family: 'Gafata';
+color: rgb(255, 240, 255);
+	font-size: 3em;
+}
+
+.line-divider:after {
+padding-bottom: 12px;
+display: block;
+height: 10px;
+content: ",";
+text-indent: -9999px;
+width: 83%;
+text-align: center;
+margin: auto auto 24px;
+}
+
+span {
+	color: black;
+}
